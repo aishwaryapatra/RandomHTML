@@ -1,0 +1,114 @@
+body {
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+}
+/* Header part */
+.header-container {
+    background-color: azure;
+    height: 12vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 2px solid slateblue;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+.branding img {
+    height: 10vh;
+    width:10vw;
+    padding: 1em;
+    border-top: blue;
+}
+.nav-bar {
+    margin: 20vw;
+}
+.nav-bar ul {
+    list-style-type: none;
+}
+.nav-bar ul li {
+    display: inline;
+    padding: 1em;
+    font-size: 25px;
+}
+.nav-bar ul li a {
+    text-decoration: none;
+    color: steelblue;
+}
+.nav-bar ul li a:hover {
+    color: blue;
+    padding-bottom: 10px;
+    border-bottom: 1px solid blue;
+}
+.touch {
+    background-color: blue;
+    border:2px solid cornflowerblue;
+    width: 10vw;
+    padding: 10px;
+    border-radius: 5em;
+}
+button:hover{
+    color: blue;
+    background-color: wheat;
+
+    /* Hero-unit-container */
+}
+.hero-unit-container {
+    background: url('../img/background.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin-top: 0%;
+    image-rendering: -webkit-optimize-contrast;
+    background-position:50% 50%;
+} 
+h1 {
+    text-align: center;
+    margin: 0%;
+    font-size: 3em;
+    padding: 3em;
+} 
+h2 {
+    text-align: center;
+    font-size: 2em;
+    
+}
+.paper-container {
+    display: flex;
+    flex-direction: column;
+    
+} 
+.paper-container-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.paper {
+    background-color: beige;
+    box-shadow: bisque;
+    padding: 1em;
+    text-align: center;
+}
+.paper img {
+   height: 300px;
+   width:300px;
+   float: left;
+   padding: 50px;
+}
+.paper p {
+    font-size: 2em;
+    color: blue;
+}
+footer {
+    margin-top: 1em;
+    height: 6vh;
+    background-color: cornflowerblue;
+    text-align: center;
+    padding: 6px;
+    border-top: 2px solid blue;
+    font-style: oblique;
+    font-size: 30px;
+}
